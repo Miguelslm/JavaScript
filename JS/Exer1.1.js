@@ -1,5 +1,7 @@
 let n1 = parseInt(prompt('Digite um numero:'))
 let n2 = parseInt(prompt('Digite outro numero:'))
-let media = (n1 + n2 ) / 2
+let soma = n1 + n2 
 
-alert(`A media entre esses dois numeros é ${media}`)
+alert(`A soma entre esses dois numeros é ${soma}`)
+
+//console.log(`A soma entre esses dois é ${soma}`)
