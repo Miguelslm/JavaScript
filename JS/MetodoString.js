@@ -10,5 +10,7 @@ console.log(gato.substring(2));
 const fraseCortada = frase.split(' ');
 console.log(fraseCortada[4]);
 
-let novaFrase = frase.replace('Lord of Darknes','Canario')
-console.log(novaFrase)
+let novaFrase = frase.replace('Lord of Darknes','Canario');
+console.log(novaFrase);
+
+
