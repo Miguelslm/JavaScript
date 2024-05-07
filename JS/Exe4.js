@@ -1,5 +1,5 @@
-let preço = 98.99
+let preco = 98.99
 let desconto = 0.2
-let preçoFinal = (preço % 20)
+let precoFinal = preco -(preco * desconto)
 
-console.log(preçoFinal)
+console.log(precoFinal)
