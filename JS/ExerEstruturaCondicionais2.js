@@ -1,4 +1,4 @@
-let idade = prompt('Qual a sua idade?')
+let idade = Number(prompt('Qual a sua idade?'))
 
 alert
 if (idade >= 18) {
