@@ -14,3 +14,4 @@ emails.forEach((email,cadastro, completo)=>{
     console.log(`--- --- --- --- --- --- ---`);
     
 }) 
+
