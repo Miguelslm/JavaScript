@@ -7,6 +7,9 @@ function getImage(e) {
       })
       .then((data) => {
         document.querySelector("#json_aqui").innerText = JSON.stringify(data);
+        prompt.log(data);
+        prompt.log(data.message)
+        prompt.log(data.status)
   
         let imagem = `<img class="rounded img-fluid" src="${data.message}" />`;
   
